@@ -6,7 +6,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Donate Bangladesh</title>
 
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
@@ -32,7 +32,7 @@
   <header>
  
 
-  <nav>
+   <nav>
     <div class="navbar bg-base-100">
       <div class="navbar-start">
         <div class="dropdown">
@@ -55,7 +55,7 @@
             class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
             <li><a>Item 1</a></li>
             <li>
-              <a>Parent</a>
+              <a>Donate Bangladesh</a>
               <ul class="p-2">
                 <li><a>Submenu 1</a></li>
                 <li><a>Submenu 2</a></li>
@@ -64,25 +64,32 @@
             <li><a>Item 3</a></li>
           </ul>
         </div>
-        <a class="btn btn-ghost text-xl">Blog</a>
+        <a class="btn bg-green-300 btn-ghost text-xl">   
+          <button onclick="redirectToPage()">Blog</button>
+        
+          <script>
+            function redirectToPage() {
+              window.location.href = "blog.html";  
+            }
+          </script>
+        </a>
       </div>
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal px-1">
-          <li><a>Home</a></li>
+         
           <li>
-            <details>
-              <summary class=" text-2xl">Donatation Bangladesh</summary>
-             
-            </details>
+           
+            <button class="text-3xl"> <img src="assets/logo.png" alt=""> Donate Bangladesh</button>
+              
           </li>
-          <li><a>About</a></li>
+        
         </ul>
       </div>
       <div class="navbar-end">
-        <a class="btn">Button</a>
+        <a class="btn"> <img src="assets/coin.png" alt=""> 5500BDT</a>
       </div>
     </div>
-  </nav>
+   </nav>
 
 
  
@@ -108,17 +115,19 @@
     <div class="my-4 py-4">
       <div class="flex justify-center items-center h-full">
         <button class="btn bg-green-500  mx-2">Donation</button>
-        <button class="btn  bg-green-200 mx-2">History</button>
+        <a class="btn bg-green-300 btn-ghost text-xl">   
+          <button onclick="redirectToPage()">Blog</button>
+        
+          <script>
+            function redirectToPage() {
+              window.location.href = "blog.html";  
+            }
+          </script>
     </div>
     </div>
   
     
   
-
-
-
-
-
     
     <!-- Card 1 -->
     <div class="bg-white shadow-md rounded-lg flex p-6 mb-6">
@@ -133,7 +142,7 @@
     </div>
 
     <!-- Card 2 -->
-    <div class="bg-white shadow-md rounded-lg flex p-6 mb-6">
+    <div class=" bg-white shadow-md rounded-lg flex p-6 mb-6">
       <img src="assets/feni.png" alt="Flood Relief in Feni, Bangladesh" class="rounded-md w-1/2">
       <div class="pl-6 w-1/2">
         <div class="currency-badge">💰 600 BDT</div>
@@ -183,7 +192,21 @@
 
 
 
-  <!-- Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
